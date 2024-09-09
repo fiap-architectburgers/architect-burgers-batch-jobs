@@ -1,5 +1,5 @@
 locals {
-  lambda_path = "${path.module}/lambdas"
+  lambda_code_path = "${path.module}/../src"
   layers_path = "${path.module}/layers"
   
   common_tags = {

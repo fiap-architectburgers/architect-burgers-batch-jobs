@@ -1,7 +1,7 @@
 data "archive_file" "arquivar_pedido_artefact" {
   output_path = "files/arquivar_pedido_artefact.zip"
   type = "zip"
-  source_file = "${local.lambda_path}/arquivar-pedidos/index.mjs"
+  source_file = "${local.lambda_code_path}/arquivar-pedidos/index.mjs"
 }
 
 
