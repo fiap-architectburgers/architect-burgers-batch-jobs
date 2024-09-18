@@ -1,5 +1,5 @@
 name: Terraform apply
-run-name: Create application k8s infra
+run-name: Create batch jobs infra
 on:
   push:
     branches:
