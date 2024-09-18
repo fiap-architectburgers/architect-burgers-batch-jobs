@@ -1,5 +1,5 @@
 name: Terraform plan
-run-name: Infra-k8s Terraform plan
+run-name: Infra-Batch Jobs Terraform plan
 on:
   pull_request:
     types:
