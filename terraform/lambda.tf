@@ -8,7 +8,7 @@ data "archive_file" "arquivar_pedido_artefact" {
 resource "aws_lambda_function" "arquivar_pedido" {
    function_name = "arquivar_pedido"
    handler = "index.handler"
-   //role = "arn:aws:iam::003187940490:role/LabRole"
+   ///role = "arn:aws:iam::003187940490:role/LabRole"
    role = data.aws_iam_role.awsacademy-role.arn
    runtime = "nodejs20.x"
    
