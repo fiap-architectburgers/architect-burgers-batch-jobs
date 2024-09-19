@@ -23,7 +23,7 @@ import { ElasticLoadBalancingV2Client, DescribeLoadBalancersCommand } from "@aws
         const options = {
           hostname: `${loadbalancer_url_dinamic}`,
           port: 80,
-          path: '/pedidos/historico/arquivarPedidos/1',
+          path: '/pedidos/historico/arquivarPedidos/5',
           //path: '/petstore/pets',
           method: 'POST',
           headers: {
