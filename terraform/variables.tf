@@ -9,7 +9,7 @@ variable "create" {
 }
 
 variable "create_role" {
-  description = "Controls whether IAM roles should be created"
+  description = "Controls whether IAM roles should be created "
   type        = bool
   default     = true
 }
