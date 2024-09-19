@@ -33,7 +33,7 @@ variable "append_destination_postfix" {
 }
 
 variable "append_schedule_group_postfix" {
-  description = "Controls whether to append '-group' to the name of the schedule group"
+  description = "Controls whether to append '-group' to the name of the schedule group "
   type        = bool
   default     = true
 }
